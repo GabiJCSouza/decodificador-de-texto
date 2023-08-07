@@ -1,0 +1,137 @@
+body {
+    background-color: #E9ECF8;
+    font-family: 'Inter', sans-serif;
+}
+
+.tituloPrincipal {
+    color: #052051;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.texto {
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.digita__texto {
+    background-color: #f1f3fc;
+    border: #E9ECF8;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    height: 181px;
+    width: 940px;
+}
+
+.info {
+    background: url(/imagens/info.png) no-repeat left;
+    background-size: 20px;
+    padding: .6rem;
+}
+
+.info p {
+    color: #495057;
+    font-size: .7rem;
+    padding-left: .7rem;
+}
+
+.botoes {
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 gray;
+    cursor: pointer;
+    height: 50px;
+    margin: 5px auto;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+.botao__criptografar {
+    background-color: #0A3871;
+    color: white;
+    margin-left: 270px;
+}
+
+.botao__criptografar:hover {
+    background-color: #08274e;
+    border: none;
+}
+
+.botao__descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.botao__descriptografar:hover {
+    background-color: #b9bec5;
+    border: none;
+}
+
+.resultado {
+    background-color: white;
+    background-image: url(/imagens/busca.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    border-radius: 20px;
+    height: 181px;
+    margin: 0  auto 50px;
+    width: 940px;
+}
+
+.mostra__resultado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 350px 50px 50px;
+}
+
+.imagemBusca {
+    height: 160px;
+    width: auto;
+    float: right;
+}
+
+.botao__copiar {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 gray;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin: 5px 180px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+.botao__copiar:hover {
+    background-color: #b9bec5;
+    border: none;
+}
+
+.rodape {
+    background-color: #babbc2;
+    font-size: .7rem;
+    margin: auto;
+    padding: 10px;
+    width: 940px;
+}
+.apresentacao {
+    margin: 10px 10px 10px 10px;
+}
+
+.nome__apresentacao {
+    font-weight: bold;
+}
+
+.sobre {
+    text-align: right;
+}
